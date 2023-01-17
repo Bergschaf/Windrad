@@ -25,7 +25,7 @@ def open_url(address):
     driver.implicitly_wait(1)
     driver.maximize_window()
     driver.get(address)
-    driver.set_window_size(1920, 1080)  # to set the screenshot width
+    driver.set_window_size(1920, 1080)
     # save as "Board_2023-01-01.png
     save_screenshot(driver, f"{videos_folder}/Board_{datetime.datetime.now().strftime('%Y-%m-%d')}.png")
     driver.quit()
