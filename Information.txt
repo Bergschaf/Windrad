@@ -1,3 +1,4 @@
-Maßstab: 280 : 1
-Nabenhöhe 140m : 50cm
+Maßstab: 280m : 1 
+Nabenhöhe 140m  x 16.5m: 50cm x 5,9cm
 Rotordurchmesser: 120m : 43cm
+Gondel: 18m x 6m x 6m : 12,3cm x 2,14cm x 2,14cm
