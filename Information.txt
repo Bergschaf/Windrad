@@ -4,7 +4,7 @@ Rotordurchmesser: 120m : 43cm
 Gondel: 18m x 6m x 6m : 12,3cm x 2,14cm x 2,14cm
 Gondel: Narbe, Welle Bremse, Getriebe Kupplung, Generator
 
-Motor Maße: Durchmesser: 2,41cm, Höhe (ohne Stempel): 1,35com, Höhe (mit Stempel): 2,8, Durchmesser Stempel: 0,2
+Motor Maße: Durchmesser: 2,4cm, Höhe (ohne Stempel): 1,35com, Höhe (mit Stempel): 2,8, Durchmesser Stempel: 0,2
 Motor Strom:
 
 Getriebe Zahnrad klein: 10 Zähe; Durchmesser: 1,3cm (0,8 ohne Zähne); Höhe: 0,65
