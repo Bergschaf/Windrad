@@ -10,4 +10,5 @@ Motor Strom:
 Getriebe Zahnrad klein: 10 Zähe; Durchmesser: 1,3cm (0,8 ohne Zähne); Höhe: 0,65
 Getriebe Zahnrad groß: 40; Durchmesser: 4.15 (3,75 ohne Zähne); Höhe: 0,65
 
-Achsendruchmesser?
+Achsendruchmesser: 4mm
+
