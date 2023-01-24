@@ -11,3 +11,4 @@ Getriebe Zahnrad klein: 10 Zähe; Durchmesser: 1,3cm (0,8 ohne Zähne); Höhe: 0
 Getriebe Zahnrad groß: 40; Durchmesser: 4.15 (3,75 ohne Zähne); Höhe: 0,65
 
 Achsendruchmesser: 4mm
+
