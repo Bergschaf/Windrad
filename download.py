@@ -9,6 +9,7 @@ import logging
 import os
 import time
 
+
 # Set default download folder for ChromeDriver
 videos_folder = r"./Board"
 if not os.path.exists(videos_folder):
