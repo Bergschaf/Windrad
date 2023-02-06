@@ -13,4 +13,4 @@ Getriebe Zahnrad groß: 40; Durchmesser: 4.15 (3,75 ohne Zähne); Höhe: 0,65
 Durchmesser nabe: 71mm
 Achsendruchmesser: 4mm
 
-Scale_downloaded 1.3
+Scale 1.3
