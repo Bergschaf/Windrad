@@ -16,3 +16,6 @@ Achsendruchmesser: 4mm
 Scale 1.3
 Zahnstange Höhe 6mm
 Zahnstange Länge 50mm
+Servo Breite 12mm
+Servo Länge 32mm
+Servo höhe 29mm
