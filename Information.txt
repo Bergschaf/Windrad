@@ -15,5 +15,5 @@ Achsendruchmesser: 4mm
 
 Scale 1.3
 
-Grün isch +
-wießes kabel isch -
+Grün isch + äußerer ring
+wießes kabel isch - innerer ring
