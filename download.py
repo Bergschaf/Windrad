@@ -10,6 +10,8 @@ import os
 import time
 
 
+
+
 # Set default download folder for ChromeDriver
 videos_folder = r"./Board"
 if not os.path.exists(videos_folder):
@@ -18,13 +20,25 @@ prefs = {"download.default_directory": videos_folder}
 
 def open_url(address):
     # SELENIUM SETUP
+
     logging.getLogger('WDM').setLevel(logging.WARNING)  # just to hide not so rilevant webdriver-manager messages
-    chrome_options = Options()
-    chrome_options.headless = True
-    chrome_options.add_experimental_option("prefs", prefs)
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+    chromeOptions = webdriver.ChromeOptions()
+    #chromeOptions.add_experimental_option("prefs", {"profile.managed_default_content_settings.images": 2})
+    chromeOptions.add_argument("--no-sandbox")
+    chromeOptions.add_argument("--disable-setuid-sandbox")
+
+    #chromeOptions.add_argument("--remote-debugging-port=9222")  # this
+
+    chromeOptions.add_argument("--disable-dev-shm-using")
+    chromeOptions.add_argument("--disable-extensions")
+    chromeOptions.add_argument("--disable-gpu")
+    chromeOptions.add_argument("disable-infobars")
+    chromeOptions.add_argument(r"user-data-dir=.\cookies\\test")
+    chromeOptions.add_argument("--headless")
+    chromeOptions.add_experimental_option("prefs", prefs)
+    driver = webdriver.Chrome(options=chromeOptions)#service=Service(ChromeDriverManager().install()), options=chromeOptions)
     driver.implicitly_wait(1)
-    driver.maximize_window()
+    driver.maximize_window())
     driver.get(address)
     driver.set_window_size(1920, 1080)
     # save as "Board_2023-01-01.png
