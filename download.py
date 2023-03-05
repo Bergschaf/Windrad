@@ -38,7 +38,7 @@ def open_url(address):
     chromeOptions.add_experimental_option("prefs", prefs)
     driver = webdriver.Chrome(options=chromeOptions)#service=Service(ChromeDriverManager().install()), options=chromeOptions)
     driver.implicitly_wait(1)
-    driver.maximize_window())
+    driver.maximize_window()
     driver.get(address)
     driver.set_window_size(1920, 1080)
     # save as "Board_2023-01-01.png
